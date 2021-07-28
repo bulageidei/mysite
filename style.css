@@ -1,0 +1,225 @@
+h1 {
+	margin: 0 auto;
+	color: #7952B3;
+	width: 50%;
+	font-family: 'Sacramento', cursive;
+	font-size: 6rem;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 3rem;
+	color: #04009A;
+	margin: 5vh auto 3vh auto;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	color: #6A2C70;
+	font-size: 2rem;
+	margin: 3vh auto;
+}
+
+hr {
+	border-style: none;
+	border-top-style: dotted;
+	border-width: 10px;
+	border-color: #DF5E5E;
+	width: 10vw;
+	margin: 100px auto;
+}
+
+p {
+	font-size: 1.125rem;
+}
+
+body {
+	margin: 0;
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+	/*background-color: #F3C583;*/
+	color: #40514E;
+	line-height: 2;
+}
+
+.top {
+	background-color: #F7DBF0;
+	height: 100vh;
+	position: relative;
+}
+
+.title {
+	width: 50vw;
+	position: absolute;
+	left: 25%;
+	bottom: 50%;
+	line-height: 2;
+}
+
+#cloudtop {
+	position: absolute;
+	top: 20%;
+	right: 15%;
+}
+
+#cloudbot {
+	position: absolute;
+	top: 60%;
+	left: 15%;
+}
+
+#mountain {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 50vw;
+	right: 25%;
+}
+
+.mid {
+	background-color: #F9F7F7;
+}
+
+.profile {
+	height: 100vh;
+}
+
+.profileimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15vh;
+	width: 20vw;
+}
+
+#descrip{
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	bottom: 49%;
+	font-weight: 600;
+	color: #7952B3;
+}
+
+.skills {
+	height: 100vh;
+	background-color: #F7DBF0;
+}
+
+.skillhead {
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+}
+
+.skill-row {
+	width: 50vw;
+	margin: 50px auto 200px auto;
+	text-align: left;
+	line-height: 2;
+}
+
+.smort {
+	display: block;
+	margin: auto;
+	width: 17vw;
+	border-radius: 50%;
+	float: left;
+	margin-right: 5vw;
+}
+
+.coco {
+	display: block;
+	margin: auto;
+	width: 17vw;
+	border-radius: 50%;
+	float: left;
+	margin-right: 5vw;
+}
+
+.codeimg {
+	display: block;
+	margin: auto;
+	width: 17vw;
+	float: right;
+	margin-left: 5vw;
+}
+
+.contact {
+	margin: 0;
+	padding-top: 15vh;
+	padding-bottom: 7.5vh;
+}
+
+.contact-me {
+	height: 80vh;
+}
+
+.bot {
+	position: relative;
+	height: 100vh;
+	background-color: #F9F7F7;
+}
+
+.end {
+	padding-bottom: 2vh;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 1vh;
+	color: #96BAFF;
+	font-weight: 600;
+	font-size: 0.75rem;
+}
+
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #a8d8ea 5%, #3f71af 100%);
+	background-color:#a8d8ea;
+	border-radius:6px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Raleway', sans-serif;
+	font-size:19px;
+	padding:8px 8px;
+	text-decoration:none;
+	text-shadow:0px 0px 50px #283966;
+	margin: 1vh auto 5vh auto;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #3f71af 5%, #a8d8ea 100%);
+	background-color:#3f71af;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+a {
+	color: #F9F7F7;
+	font-family: 'Oxygen', sans-serif;
+	margin: 1vh 1vw;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: 600;
+	color: #96BAFF;
+}
+
+.foot {
+	display: inline-block;
+	position: absolute;
+	/*padding: 5vh 25vw 0 25vw;*/
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #4C4C6D;
+}
+
+.serious:hover {
+	font-weight: 900;
+	font-size: 5vw;
+	color: #D72323;
+	text-decoration: underline;
+}
